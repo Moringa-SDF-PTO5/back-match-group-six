@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SignUp.css'; // Import SignUp CSS
+import './SignIn.css'; // Import SignIn CSS
 
-function SignUp() {
+function SignIn() {
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
+  const [error, setError] = useState('');
 
   const navigate = useNavigate();
 
@@ -17,17 +18,22 @@ function SignUp() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Store user credentials in localStorage
-    localStorage.setItem('email', formData.email);
-    localStorage.setItem('password', formData.password);
+    // Retrieve user credentials from localStorage
+    const storedEmail = localStorage.getItem('email');
+    const storedPassword = localStorage.getItem('password');
 
-    // Redirect to sign-in page
-    navigate('/sign-in');
+    // Check if entered credentials match stored credentials
+    if (formData.email === storedEmail && formData.password === storedPassword) {
+      // Redirect to members area
+      navigate('/members-area');
+    } else {
+      setError('Incorrect email or password');
+    }
   };
 
   return (
     <div>
-      <h1>Sign Up</h1>
+      <h1>Sign In</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Email:</label>
@@ -37,10 +43,11 @@ function SignUp() {
           <label>Password:</label>
           <input type="password" name="password" value={formData.password} onChange={handleChange} />
         </div>
-        <button type="submit">Sign Up</button>
+        {error && <div className="error-message">{error}</div>}
+        <button type="submit">Sign In</button>
       </form>
     </div>
   );
 }
 
-export default SignUp;
+export default SignIn;

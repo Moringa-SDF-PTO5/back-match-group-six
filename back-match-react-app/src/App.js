@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUp from './components/SignUp'; // Make sure to import SignUp component
+import SignIn from './components/SignIn'; // Import SignIn component
+import SignUp from './components/SignUp'; // Import SignUp component
 
 function App() {
   return (
@@ -10,17 +11,18 @@ function App() {
         <header className="Navbar">
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="#">Dashboard</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="/sign-up">Sign Up</a></li> {/* Ensure correct href */}
-              <li><a href="#">Sign In</a></li>
+              <li><a href="/sign-up">Sign Up</a></li>
+              <li><a href="/sign-in">Sign In</a></li>
               <li><a href="#">Forgot Password</a></li>
             </ul>
           </nav>
         </header>
         <main className="Content">
           <Routes>
-            <Route path="/sign-up" element={<SignUp />} /> {/* Add route for SignUp */}
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/sign-in" element={<SignIn />} /> {/* Route to SignIn component */}
             {/* Add other routes here */}
           </Routes>
         </main>
