@@ -1,0 +1,25 @@
+/* MembersArea.css */
+
+.MembersArea {
+    padding: 20px;
+  }
+  
+  .MembersArea nav {
+    margin-bottom: 20px;
+  }
+  
+  .MembersArea nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .MembersArea nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .MembersArea nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  

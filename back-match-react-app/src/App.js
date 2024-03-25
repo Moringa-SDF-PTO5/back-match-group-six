@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignIn from './components/SignIn'; // Import SignIn component
 import SignUp from './components/SignUp'; // Import SignUp component
+import MembersArea from './components/MembersArea'; // Import MembersArea component
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/sign-in" element={<SignIn />} /> {/* Route to SignIn component */}
+            <Route path="/members-area" element={<MembersArea />} />
             {/* Add other routes here */}
           </Routes>
         </main>

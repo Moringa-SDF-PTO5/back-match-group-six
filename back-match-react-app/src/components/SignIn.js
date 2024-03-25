@@ -1,49 +1,56 @@
+// SignIn.js
+
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './SignIn.css'; // Import SignIn CSS
+import { useNavigate } from 'react-router-dom'; // Import useNavigate from React Router
+import './SignIn.css'; // Import CSS for SignIn
 
 function SignIn() {
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
-  const [error, setError] = useState('');
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Access the navigate function
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Retrieve user credentials from localStorage
-    const storedEmail = localStorage.getItem('email');
-    const storedPassword = localStorage.getItem('password');
-
-    // Check if entered credentials match stored credentials
-    if (formData.email === storedEmail && formData.password === storedPassword) {
-      // Redirect to members area
+    // Here, you would perform the authentication logic
+    // For simplicity, let's assume authentication is successful if password matches
+    // Replace this with your actual authentication logic
+    if (formData.password === localStorage.getItem('password')) {
+      // Redirect to Members Area upon successful sign-in
       navigate('/members-area');
     } else {
-      setError('Incorrect email or password');
+      // Handle authentication failure
+      console.log('Authentication failed');
     }
   };
 
   return (
-    <div>
-      <h1>Sign In</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Email:</label>
-          <input type="email" name="email" value={formData.email} onChange={handleChange} />
-        </div>
-        <div>
-          <label>Password:</label>
-          <input type="password" name="password" value={formData.password} onChange={handleChange} />
-        </div>
-        {error && <div className="error-message">{error}</div>}
+    <div className="SignInContainer">
+      <h2>Sign In</h2>
+      <form onSubmit={handleSubmit} className="SignInForm">
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          value={formData.password}
+          onChange={handleChange}
+          required
+        />
         <button type="submit">Sign In</button>
       </form>
     </div>

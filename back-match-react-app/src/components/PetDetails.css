@@ -1,0 +1,32 @@
+/* PetDetails.css */
+
+.PetDetailsContainer {
+    padding: 20px;
+  }
+  
+  .PetDetailsCard {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .PetDetailsCard img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .PetDetailsCard h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .PetDetailsCard p {
+    margin-bottom: 10px;
+  }
+  

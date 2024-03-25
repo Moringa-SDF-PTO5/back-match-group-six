@@ -1,0 +1,49 @@
+/* DonationSection.css */
+
+.DonationSectionContainer {
+    padding: 20px;
+    background-color: #28a745; /* Green background color */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .DonationOptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .DonationOption {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .DonationOption img {
+    width: 100px; /* Adjust image size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .DonationOption a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .DonationForm input,
+  .DonationForm button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .DonationForm button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .DonationForm button:hover {
+    background-color: #0056b3;
+  }
+  
