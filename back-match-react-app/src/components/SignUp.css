@@ -1,0 +1,43 @@
+.SignUp {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .SignUp h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .SignUp form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SignUp form label {
+    margin-bottom: 8px;
+  }
+  
+  .SignUp form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .SignUp form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .SignUp form button:hover {
+    background-color: #0056b3;
+  }
+  
