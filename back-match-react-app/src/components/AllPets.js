@@ -1,7 +1,13 @@
 // AllPets.js
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react'; // Combine the imports
+
 import axios from 'axios';
+import './AllPets.css'; // Import the CSS file
+
+// Your component code here
+
+
 import './AllPets.css'; // Import CSS for AllPets
 
 function AllPets() {
