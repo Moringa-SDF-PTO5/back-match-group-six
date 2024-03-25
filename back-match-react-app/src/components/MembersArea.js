@@ -21,7 +21,11 @@ function MembersArea() {
         <ul>
           <li onClick={() => handleNavigation('honor-code')}>Honor Code</li>
           <li onClick={() => handleNavigation('donation-section')}>Donation Section</li>
-          <li onClick={() => handleNavigation('all-pets')}>All Pets Display</li>
+          <li onClick={() => handleNavigation('all-pets')}>All Pets </li>
+          <li onClick={() => handleNavigation('pet-details')}>PetDetails </li>
+          <li onClick={() => handleNavigation('inner-circle')}>InnerCircle </li>
+
+
           {/* Add more navigation options as needed */}
         </ul>
       </nav>
@@ -30,6 +34,8 @@ function MembersArea() {
       {activeSection === 'honor-code' && <HonorCode />}
       {activeSection === 'donation-section' && <DonationSection />}
       {activeSection === 'all-pets' && <AllPets />}
+      {activeSection === 'pet-details' && <PetDetails />}
+      {activeSection === 'inner-circle' && <InnerCircle />}
       {/* Add more conditional rendering for other sections */}
     </div>
   );
