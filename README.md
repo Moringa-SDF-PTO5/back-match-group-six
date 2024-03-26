@@ -33,7 +33,7 @@ For the project to run the following should be fullfilled:
   
 * Web browser (Chrome is prefered)
   
-* Stable internet connection (For cloning and ensuring access to the remote server (https://json-server-747u.onrender.com))
+* Stable internet connection (For cloning and ensuring access to the remote server (https://bot-batlr-jackson-njihia.onrender.com/pets)
 
 ### Steps
 
