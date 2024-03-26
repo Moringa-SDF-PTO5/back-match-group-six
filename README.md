@@ -43,7 +43,9 @@ For the project to run the following should be fullfilled:
 
 3. Run ```npm install ``` to install the dependencies.
    
-4.  Run ``` npm run start``` to open the app in the browser. 
+4.  Run ``` npm run start``` to open the app in the browser.
+
+5.  install axios and react-dom.
 
 ## Demo
 
@@ -52,15 +54,24 @@ The webapp sign up page
 
 ![Screenshot from 2024-03-26 07-27-09](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/60450518-58f4-4176-8d3a-d2778a9743b7)
 
+
 The wepapp sign in page
+
+
 ![Screenshot from 2024-03-26 07-29-33](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/0ab0acfc-08c6-47ed-9b76-9c2277d64681)
 
 
 The webapp Members area
 
+!file:///home/jackson/Pictures/Screenshots/Screenshot%20from%202024-03-26%2007-35-30.png
+
+
+
 All Pets
 
 Dashboard 
+!file:///home/jackson/Pictures/Screenshots/Screenshot%20from%202024-03-26%2007-36-16.png
+
 
 
 ## Author
