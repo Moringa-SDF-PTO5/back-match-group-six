@@ -17,7 +17,7 @@
         "name": "Whiskers",
         "breed": "Persian",
         "shelter": "Feline Friends Shelter",
-        "image": "https://www.pexels.com/photo/grey-persian-cat-3423805/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Stephanie_2.jpg/220px-Stephanie_2.jpg",
         "price": 150,
         "contact": "felinefriends@example.com"
       },
@@ -27,7 +27,7 @@
         "name": "Slytherin",
         "breed": "Ball Python",
         "shelter": "Reptile Retreat",
-        "image": "https://www.pexels.com/photo/close-up-of-ball-python-18012500/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Albino_ball_python.png/220px-Albino_ball_python.png",
         "price": 100,
         "contact": "reptileretreat@example.com"
       },
@@ -37,7 +37,7 @@
         "name": "Tweety",
         "breed": "Canary",
         "shelter": "Feathered Friends Sanctuary",
-        "image": "https://www.pexels.com/photo/close-up-shot-of-a-yellow-canary-6398822/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Girlitz_Serinus_serinus.jpg/1200px-Girlitz_Serinus_serinus.jpg",
         "price": 50,
         "contact": "featheredfriends@example.com"
       },
@@ -47,7 +47,7 @@
         "name": "Rocky",
         "breed": "German Shepherd",
         "shelter": "Rescue Me Center",
-        "image": "https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pastor_aleman_a.jpg",
         "price": 250,
         "contact": "rescueme@example.com"
       },
