@@ -56,9 +56,9 @@ The repo has been created and is currently being maintained by:
 
 - Jackson Njihia
 
-The API is maintained by:
+The images are obtained:
 
-- Moringa School
+- Wikipidia
 
 ## Aknowledgement
 *  Special thanks to Derrick for helping with the repo to create the remote server (https://github.com/derrickmomanyi/JSON-SERVER)
