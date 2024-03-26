@@ -1,18 +1,34 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Dashboard.css'; // Importing the CSS file
+// Dashboard.js
+
+import React, { useState } from 'react';
+import Events from './Events';
+import GeneralTips from './GeneralTips';
+import BlogsAndPosts from './BlogsAndPosts';
 
 function Dashboard() {
+  const [activeSection, setActiveSection] = useState('events');
+
+  const handleNavigation = (section) => {
+    setActiveSection(section);
+  };
+
   return (
-    <div className="dashboard-container">
-      <h1>Welcome to the Dashboard</h1>
-      <nav className="dashboard-nav">
+    <div>
+      {/* Navigation Menu */}
+      <nav>
         <ul>
-          <li><Link to="/dashboard/events">Events</Link></li>
-          <li><Link to="/dashboard/general-tips">General Tips</Link></li>
-          <li><Link to="/dashboard/blogs">Blogs and Posts</Link></li>
+          <li onClick={() => handleNavigation('events')}>Events</li>
+          <li onClick={() => handleNavigation('general-tips')}>General Tips</li>
+          <li onClick={() => handleNavigation('blogs-and-posts')}>Blogs and Posts</li>
+          {/* Add more navigation options as needed */}
         </ul>
       </nav>
+
+      {/* Render the active section based on user's navigation */}
+      {activeSection === 'events' && <Events />}
+      {activeSection === 'general-tips' && <GeneralTips />}
+      {activeSection === 'blogs-and-posts' && <BlogsAndPosts />}
+      {/* Add more conditional rendering for other sections */}
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.events-container {
+    background-color: #d8c3a5; /* Light green + light brown */
+    padding: 20px;
+}
+
+.events-title {
+    font-size: 24px;
+    color: #003366; /* Deep blue */
+}
+
+.event {
+    display: flex;
+    margin-top: 20px;
+}
+
+.event-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    margin: 5px 0;
+}
