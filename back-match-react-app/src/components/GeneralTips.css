@@ -1,0 +1,31 @@
+/* GeneralTips.css */
+
+.general-tips-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  .tips-category {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  .tips-category h3 {
+    font-size: 24px;
+    color: #333333; /* Dark gray text color */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eeeeee; /* Light gray border bottom */
+    padding-bottom: 10px;
+  }
+  
+  .tips-category p {
+    font-size: 16px;
+    color: #555555; /* Medium gray text color */
+    line-height: 1.6;
+  }
+  
