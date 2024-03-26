@@ -10,7 +10,7 @@ function AllPets() {
 
   const fetchPets = async () => {
     try {
-      const response = await axios.get('http://localhost:4500/pets');
+      const response = await axios.get('https://bot-batlr-jackson-njihia.onrender.com/pets');
       setPets(response.data);
       setSearchResults(response.data);
     } catch (error) {

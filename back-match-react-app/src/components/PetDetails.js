@@ -13,7 +13,7 @@ function PetDetails() {
   useEffect(() => {
     const fetchPetDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:4500/pets/${id}`);
+        const response = await axios.get(`https://bot-batlr-jackson-njihia.onrender.com/pets/${id}`);
         setPetDetails(response.data);
       } catch (error) {
         console.error('Error fetching pet details:', error);

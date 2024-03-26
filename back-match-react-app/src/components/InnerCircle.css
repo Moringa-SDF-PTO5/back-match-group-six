@@ -36,4 +36,7 @@
   .JoinButton:hover {
     background-color: #0056b3;
   }
-  
+  img{
+    height: 250px;
+    width: 700px;
+  }
