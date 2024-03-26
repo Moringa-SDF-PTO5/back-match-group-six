@@ -47,14 +47,14 @@ For the project to run the following should be fullfilled:
 
 ## Demo
 
-The webapp displaying a few transactions.
 
-![Screenshot from 2024-03-18 07-44-59](https://github.com/Moringa-SDF-PTO5/bank-of-flatiron-jackson-njihia/assets/152980044/0dca577c-05b7-4a12-9bde-0a10a2eb213a)
 The webapp sign up page
 
 ![Screenshot from 2024-03-26 07-27-09](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/60450518-58f4-4176-8d3a-d2778a9743b7)
 
 The wepapp sign in page
+![Screenshot from 2024-03-26 07-29-33](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/0ab0acfc-08c6-47ed-9b76-9c2277d64681)
+
 
 The webapp Members area
 
