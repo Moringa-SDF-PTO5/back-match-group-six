@@ -61,19 +61,17 @@ The wepapp sign in page
 ![Screenshot from 2024-03-26 07-29-33](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/0ab0acfc-08c6-47ed-9b76-9c2277d64681)
 
 
-The webapp Members area
-
-!file:///home/jackson/Pictures/Screenshots/Screenshot%20from%202024-03-26%2007-35-30.png
-
 
 
 All Pets
+
 
 ![image](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/23e7d49e-3d67-46e6-b92e-9426d41b6cb8)
 
 
 Dashboard 
-!file:///home/jackson/Pictures/Screenshots/Screenshot%20from%202024-03-26%2007-36-16.png
+
+![image](https://github.com/Moringa-SDF-PTO5/back-match-group-six/assets/152980044/f48e2f2e-472d-4414-aca8-fb0b5d6208ae)
 
 
 
