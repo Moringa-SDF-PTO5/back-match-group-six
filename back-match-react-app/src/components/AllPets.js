@@ -1,21 +1,13 @@
-// AllPets.js
-
-import React, { useState, useEffect } from 'react'; // Combine the imports
-
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './AllPets.css'; // Import the CSS file
-
-// Your component code here
-
-
-import './AllPets.css'; // Import CSS for AllPets
+import { Link } from 'react-router-dom'; // Import Link from React Router
+import './AllPets.css';
 
 function AllPets() {
   const [searchQuery, setSearchQuery] = useState('');
   const [pets, setPets] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
 
-  // Fetch all pets from db.json
   const fetchPets = async () => {
     try {
       const response = await axios.get('http://localhost:4500/pets');
@@ -26,12 +18,10 @@ function AllPets() {
     }
   };
 
-  // Fetch pets when component mounts
   useEffect(() => {
     fetchPets();
   }, []);
 
-  // Search pets based on query
   const handleSearch = () => {
     const results = pets.filter((pet) =>
       pet.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -39,15 +29,20 @@ function AllPets() {
     setSearchResults(results);
   };
 
-  // Clear search query and display all pets
   const handleClear = () => {
     setSearchQuery('');
     setSearchResults(pets);
   };
 
+  // Function to handle button click and navigate to pet details section
+  const handleShowDetails = (id) => {
+    // Navigate programmatically to pet details section
+    // You can replace '/pet-details' with the actual path to the pet details section
+    window.location.href = `./PetDetails/${id}`;
+  };
+
   return (
     <div className="AllPetsContainer">
-      {/* Search Bar */}
       <div className="SearchBar">
         <input
           type="text"
@@ -59,14 +54,14 @@ function AllPets() {
         <button onClick={handleClear}>Clear</button>
       </div>
 
-      {/* Display Pets */}
       <div className="PetGrid">
         {searchResults.map((pet) => (
           <div className="PetCard" key={pet.id}>
             <img src={pet.image} alt={pet.name} />
             <p>ID: {pet.id}</p>
             <p>Category: {pet.category}</p>
-            <button>Show Details</button>
+            {/* Use a function to handle button click and navigate to pet details */}
+            <button onClick={() => handleShowDetails(pet.id)}>Show Details</button>
           </div>
         ))}
       </div>
