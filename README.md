@@ -1,6 +1,6 @@
-# back-match-group-six
+# Pet Addoption React App: Back-Match-Group-Six
 
-# Bank of Flatiron
+
 
 ## Overview
 
