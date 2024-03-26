@@ -6,7 +6,7 @@
 
 The web app, Bark-Match seeks to assist people to find various pets they can adopt. The app has two main sections: members area and dashboard. In the dashboard which can be acessed without signing in users can view events, general tips for caring for pets, and blogs and posts. On the other hand, in the members area, which requires signing in members can view pets, pet details, search for pets, access inner circle, honor code, and the donation sections. 
 
-The app has been deployed on this website: (https://bot-batlr-jackson-njihia.onrender.com)
+The app has been deployed on this website: (https://back-match-group-six.vercel.app/)
 
 ## Tools
 The website has been developed using the following tools.
