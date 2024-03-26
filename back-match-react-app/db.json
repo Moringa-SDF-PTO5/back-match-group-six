@@ -57,7 +57,7 @@
         "name": "Mittens",
         "breed": "Maine Coon",
         "shelter": "Furry Friends Haven",
-        "image": "https://www.pexels.com/photo/close-up-shot-of-a-maine-8942602/",       
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cat-MaineCoon-Lara1.png/640px-Cat-MaineCoon-Lara1.png",       
         "price": 120,
         "contact": "furryfriends@example.com"
       },
@@ -67,7 +67,7 @@
         "name": "Hiss",
         "breed": "Burmese Python",
         "shelter": "Slithering Serenity",
-        "image": "https://www.pexels.com/photo/beige-python-on-brown-branch-of-tree-1108192/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Brooding_female_Python_molurus_bivittatus.jpg",
         "price": 80,
         "contact": "slitheringserenity@example.com"
       },
@@ -77,7 +77,7 @@
         "name": "Chirpy",
         "breed": "Parakeet",
         "shelter": "Avian Acres",
-        "image": "https://www.pexels.com/photo/photo-of-perched-parakeet-1661179/", 
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Melopsittacus_undulatus.jpg", 
         "price": 40,
         "contact": "avianacres@example.com"
       },
@@ -87,7 +87,7 @@
         "name": "Luna",
         "breed": "Siberian Husky",
         "shelter": "Northern Paws Rescue",
-        "image": "https://www.pexels.com/photo/black-and-white-siberian-husky-3715587/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Husky_L.jpg/640px-Husky_L.jpg",
         "price": 350,
         "contact": "northernpaws@example.com"
       },
@@ -97,7 +97,7 @@
         "name": "Shadow",
         "breed": "Russian Blue",
         "shelter": "Silent Meows Shelter",
-        "image": "https://www.pexels.com/photo/a-blue-cat-on-a-table-with-houseplants-16845242/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Russian_blue.jpg",
         "price": 180,
         "contact": "silentmeows@example.com"
       },
@@ -107,7 +107,7 @@
         "name": "Fang",
         "breed": "Reticulated Python",
         "shelter": "Ssssnake Haven",
-        "image": "https://www.pexels.com/photo/photo-of-snake-3281127/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reticulated_Python.jpg/1200px-Reticulated_Python.jpg",
         "price": 120,
         "contact": "ssssnakehaven@example.com"
       },
