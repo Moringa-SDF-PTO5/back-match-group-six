@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignIn from './components/SignIn'; // Import SignIn component
 import SignUp from './components/SignUp'; // Import SignUp component
 import MembersArea from './components/MembersArea'; // Import MembersArea component
+import Dashboard from './components/Dashboard';
+import ForgotPassword from './forgot-password';
+
 
 function App() {
   return (
@@ -12,11 +15,11 @@ function App() {
         <header className="Navbar">
           <nav>
             <ul>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="/dashboard">Dashboard</a></li>
+              <li><a href="/about">About</a></li>
               <li><a href="/sign-up">Sign Up</a></li>
               <li><a href="/sign-in">Sign In</a></li>
-              <li><a href="#">Forgot Password</a></li>
+              <li><a href="/forgot-password">Forgot Password</a></li>
             </ul>
           </nav>
         </header>
@@ -25,6 +28,9 @@ function App() {
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/sign-in" element={<SignIn />} /> {/* Route to SignIn component */}
             <Route path="/members-area" element={<MembersArea />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+
             {/* Add other routes here */}
           </Routes>
         </main>
