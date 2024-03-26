@@ -79,6 +79,9 @@ Dashboard
 The repo has been created and is currently being maintained by:
 
 - Jackson Njihia
+- Sayiel
+- Claire
+- Martin
 
 The images are obtained:
 
